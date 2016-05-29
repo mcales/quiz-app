@@ -116,6 +116,7 @@ function resetGame (){
 	$(".answer3").css("display", "block");
 	$(".submit").css("display", "inline");
 	$(".retry").css("display", "none");
+	$(".fact").html('');
 };
 
 function newGame(){
