@@ -1,0 +1,71 @@
+*html{
+	box-sizing: border-box;
+}
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+body {
+	background-image: url('../images/chalkboard.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	font-size:16px;
+	color:white;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+nav {
+	margin-top:10px;
+}
+nav > a {
+	float:right;
+	height:3rem;
+	margin-top:1.5rem;
+	cursor:pointer;
+}
+.content{
+	max-width:55rem;
+	height:3rem;
+	margin: 0 auto;
+}
+header > h1{
+margin-left:5rem;
+}
+.question-section{
+	height:25rem;
+}
+.left-col {
+	float:left;
+	width:12rem;
+}
+.left-col > span{
+	display:block;
+	margin-top:5rem;
+	float:left;
+}
+.right-col {
+	float:right;
+	width:12rem;
+	margin-top: -15.62rem;
+}
+.right-col > span{
+	display:block;
+	margin-top:5rem;
+	float:left;
+}
+.submit{
+	margin:3rem auto;
+	cursor:pointer;
+}
+.retry{
+	margin:3rem auto;
+	display:none;
+	cursor:pointer;
+}
+.image-section{
+	margin:0 12rem 0 12rem;
+}
+.image-section > img{
+	border:.1rem solid white;
+}
