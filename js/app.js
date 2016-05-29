@@ -68,6 +68,9 @@ function newQuestion(){
 	if (questionNumber > 0){
 		$(".fact").html(questions[questionNumber - 1].desc);
 	}
+	else{
+		$(".fact").html('');
+	}
 	$('.progress-tracker').html((questionNumber + 1) + ' of 5');}
 
 	//To display the Quiz complete screen
